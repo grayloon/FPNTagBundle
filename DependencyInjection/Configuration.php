@@ -20,7 +20,7 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
+        $treeBuilder = new TreeBuilder('fpn_tag');
         $rootNode = $treeBuilder->root('fpn_tag');
 
         $rootNode
